@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Greeting Form</title>
+</head>
+<body>
+    <h1>Greeting Form</h1>
+    <form method="post">
+        {{ form.hidden_tag() }}
+        {{ form.name.label }} {{ form.name() }}
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+
